@@ -1,0 +1,8 @@
+@mixin color($back, $txtcolor) {
+  background-color: $back;
+  color: $txtcolor;
+}
+
+@mixin border($bd) {
+  border: $bd;
+}

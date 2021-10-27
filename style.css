@@ -1,0 +1,52 @@
+.layout1 {
+  color: black;
+  padding: 50px;
+  font-size: 20px;
+}
+.layout1 li {
+  width: 50%;
+  padding: 20px;
+  list-style: none;
+  border: 1px solid lightgray;
+}
+.layout1 li.active {
+  color: white;
+  background-color: blue;
+}
+
+.layout2 {
+  padding: 50px;
+}
+.layout2 div {
+  padding: 5px 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.layout2 .alert1 {
+  background-color: lightgreen;
+  color: green;
+}
+.layout2 .alert2 {
+  background-color: lightblue;
+  color: blue;
+}
+.layout2 .alert3 {
+  background-color: lightyellow;
+  color: yellow;
+}
+
+.container .one {
+  background-color: lightpink;
+  color: black;
+}
+.container .two {
+  background-color: lightpink;
+  color: black;
+}
+.container .col-6 {
+  border: 1px solid lightgray;
+}
+.container .col-4 {
+  border: 1px solid lightgray;
+}/*# sourceMappingURL=style.css.map */

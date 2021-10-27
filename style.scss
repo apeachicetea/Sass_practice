@@ -1,0 +1,75 @@
+@use './color';
+
+$blue-color: blue;
+$white-color: white;
+$black-color: black;
+$green-color: green;
+$yellow-color: yellow;
+$light-green: lightgreen;
+$light-blue: lightblue;
+$light-yellow: lightyellow;
+$light-pink: lightpink;
+$font-medium: 20px;
+$border-style1: 1px solid lightgray;
+
+
+.layout1 {
+  color: $black-color;
+  padding: 50px;
+  font-size: $font-medium;
+  
+  li {
+    width: 50%;
+    padding: 20px;
+    list-style: none;
+    border: $border-style1;
+  }
+
+  li.active {
+    color: $white-color;
+    background-color: $blue-color;
+  }
+}
+
+
+.layout2 {
+  padding: 50px;
+
+  div {
+    padding: 5px 20px;
+    border: $border-style1;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+
+  .alert1 {
+    @include color.color($light-green, $green-color);
+  }
+
+  .alert2 {
+    @include color.color($light-blue, $blue-color);
+  }
+
+  .alert3 {
+    @include color.color($light-yellow, $yellow-color);
+  }
+}
+
+.container {
+  
+  .one {
+    @include color.color($light-pink, $black-color);
+  }
+
+  .two {
+    @include color.color($light-pink, $black-color); 
+  }
+
+  .col-6 {
+    @include color.border($border-style1);
+  }
+
+  .col-4 {
+    @include color.border($border-style1);
+  }
+}
