@@ -1,0 +1,27 @@
+body {
+  background-color: grey;
+  height: 5000px;
+}
+
+.grey {
+  background-color: lightgrey;
+  height: 3000px;
+  margin-top: 500px;
+}
+
+.image {
+  float: right;
+  width: 600px;
+  position: sticky;
+  top: 100px;
+}
+
+img {
+  width: 100%;
+}
+
+.text {
+  float: left;
+  width: 450px;
+  margin-top: 200px;
+}
